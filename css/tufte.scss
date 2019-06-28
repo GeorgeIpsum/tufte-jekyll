@@ -144,7 +144,9 @@ blockquote footer { width: 45%;
 pre, pre code, p code, p pre code { font-family: $code-font;  // removed .code 'class' since code is an actual html tag
         font-size: 1.2rem;                   // also added p code, p pre code and pre selector to account for Markdown parsing
         line-height: 1.71428571;        // of triple backticks plus rationalized line-heights and margins
-        margin-top: 1.71428571rem; }
+        margin-top: 1.71428571rem;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAC5UlEQVRIS13W603zShSFYfufuyBUQqiEUAmhkkAlgUoCleToGZ3Xmo+RItsz+7L22pfJerlctuPxuFiHw2H5+vpafn5+xrd1Op2W9/f35ePjY3l7exvflu/v7+9d/nq9jv3n5+fxvN/v+/t6v983Bwz7cZShl5eX3SEgj4+Pi+flctllc/j6+rqDomd9fn4OMOvhcNhCmJGnp6eFEoccM+pdRCLlqGjp/v7+DqPJzrpsrbfbbYsqQjmyx0CIihJKNFHGQLSQjb4cAkZ+LSe8ExSiA0+LMcKhwz0K7PmRe3h4GOci5oidQNlfz+fzRkjIPVESVXOUlFHWWej3Kvkf1AzI2Ui8zbguGmihUQSiiaISzJGoUJYzOpZ9EZbbQZcoSiRnGS5kibZPMTDxLYdWxTFXGf1RXRKfYQq3220oeSfkO0WGZqOoA0AOq7zz+TxoL6cj8dfrdSMgZMZC3ZOTDABTcisOEVmMO8NCDNSwezNWERwRnHPDEe5DDaXzoqrSioiz5L0PuhobdbqEzYhKbsYq9xBX9r5r1KK3ty7LsjEoNM+//NaQUDtHmeqpUBhrzJBBG5lGC51/Ek+REoGSbY8iZ+u67g4gJlNzBrShCjQZLIxmRE+ImqRRV64qX5RlYG5YzoD4W42DLs1YDzSJhd+YsNdMYiAZTr1XleVnntBkRuJFUtPM46EEEhKlVT/ZqynrqbloSnq66/F4HE5sWCKYm5CxctKUZhBV9udi6dLzrIxH4jVjoUpSHduQq2yjcL7coqYSJqvCGjHsDbo4Cf18DTfc5KGm8y6yqqrEzzMuylG2D8jT6bQRtlEzdR03WuoP3+Q8u2O6Wxo3bPQ/YS99HT9fVPVD90g3JGQl1wBUcTUwncbIfP8EaJ9dGtDIr2eiokHIUBU308RZBTBfFw3OAdofCYfu6pDJQRdPl1cUZShQqKmcA0Gm5mR3H/UE/pZk6DNSgXDQAGVwvjtEhs7+gLD7H8dQVOisA6wrAAAAAElFTkSuQmCC);
+        border-radius: 12px; }
 
 
 h1 code, h2 code, h3 code { font-size: 0.80em; } //left in for no real reason
