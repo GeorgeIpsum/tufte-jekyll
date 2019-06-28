@@ -260,6 +260,8 @@ As an example of alternative table styles, academic publications written in <spa
 
 {% marginnote 'tableID-3' 'Table 3: a table created with *Markdown Extra* markup using default table styling' %}
 
+<div markdown="1" class="table-wrapper">
+
 |                 |mpg  | cyl  |  disp  |   hp   |  drat  | wt  |
 |:----------------|----:|-----:|-------:|-------:|-------:|----:|
 |Mazda RX4        |21   |6     |160     |110     |3.90    |2.62 |
@@ -268,6 +270,20 @@ As an example of alternative table styles, academic publications written in <spa
 |Hornet 4 Drive   |21.4 |6     |258     |110     |3.08    |3.21 |
 |Hornet Sportabout|18.7 |8     |360     |175     |3.15    |3.44 |
 |Valiant          |18.1 |6     |160     |105     |2.76    |3.46 |
+
+
+</div>
+
+{% tablewrapper %}
+|                 |mpg  | cyl  |  disp  |   hp   |  drat  | wt  |
+|:----------------|----:|-----:|-------:|-------:|-------:|----:|
+|Mazda RX4        |21   |6     |160     |110     |3.90    |2.62 |
+|Mazda RX4 Wag    |21   |6     |160     |110     |3.90    |2.88 |
+|Datsun 710       |22.8 |4     |108     |93      |3.85    |2.32 |
+|Hornet 4 Drive   |21.4 |6     |258     |110     |3.08    |3.21 |
+|Hornet Sportabout|18.7 |8     |360     |175     |3.15    |3.44 |
+|Valiant          |18.1 |6     |160     |105     |2.76    |3.46 |
+{% endtablewrapper %}
 
 
 Using the following markup(down):
